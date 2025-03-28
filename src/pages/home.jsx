@@ -17,7 +17,7 @@ import { FaTrello } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
 import '../index.css';
 import emailjs from '@emailjs/browser';
-import picturePavel from "../public/assets/GP.png";
+import picturePavel from "/src/assets/GP.png";
 
 
 
