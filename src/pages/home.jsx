@@ -18,9 +18,9 @@ import { FaFigma } from "react-icons/fa";
 import '../index.css';
 import emailjs from '@emailjs/browser';
 import picturePavel from "/src/assets/GP.png";
-import pictureToDo from "/public/assets/toDoPics.png";
-import pictureTweet from "/public/assets/tweetPics.png"
-import picturePuissance4 from "/public/assets/puissance4pics.png";
+import pictureToDo from "/src/assets/toDoPics.png";
+import pictureTweet from "/src/assets/tweetPics.png"
+import picturePuissance4 from "/src/assets/puissance4pics.png";
 
 
 
