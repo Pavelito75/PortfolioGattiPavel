@@ -18,6 +18,9 @@ import { FaFigma } from "react-icons/fa";
 import '../index.css';
 import emailjs from '@emailjs/browser';
 import picturePavel from "/src/assets/GP.png";
+import pictureToDo from "/public/assets/toDoPics.png";
+import pictureTweet from "/public/assets/tweetPics.png"
+import picturePuissance4 from "./public/assets/puissance4pics.png";
 
 
 
@@ -115,11 +118,11 @@ function Description(items) {
 
 function Debian() {
     const proj = [
-        ["My To-Do List", "/public/assets/toDoPics.png", "Développé en 3h sous surveillance à Epitech avec HTML, CSS et JavaScript, ce site web permet d'ajouter, supprimer et valider des tâches. Un exercice pratique pour renforcer les bases du front-end dans un cadre contraint.", "https://github.com/Pavelito75/My-To-Do-List"],
+        ["My To-Do List", {pictureToDo}, "Développé en 3h sous surveillance à Epitech avec HTML, CSS et JavaScript, ce site web permet d'ajouter, supprimer et valider des tâches. Un exercice pratique pour renforcer les bases du front-end dans un cadre contraint.", "https://github.com/Pavelito75/My-To-Do-List"],
 
-        ["Tweet Academie", "/public/assets/tweetPics.png", "En un mois et en équipe de 4, nous avons développé une version simplifiée de Twitter avec PHP pour le back-end et JS pour le front-end. Nous avons pu travailler sur notre organisation grace a l'aide d'un Trello et d'un Figma et focus sur la sécurité (sessions, SQL). Un bon défi pour renforcer nos compétences en full-stack et en travail d'équipe.", "https://github.com/Pavelito75/Tweet-Academie"],
+        ["Tweet Academie", {pictureTweet}, "En un mois et en équipe de 4, nous avons développé une version simplifiée de Twitter avec PHP pour le back-end et JS pour le front-end. Nous avons pu travailler sur notre organisation grace a l'aide d'un Trello et d'un Figma et focus sur la sécurité (sessions, SQL). Un bon défi pour renforcer nos compétences en full-stack et en travail d'équipe.", "https://github.com/Pavelito75/Tweet-Academie"],
 
-        ["Puissance 4", "./public/assets/puissance4pics.png", "En deux semaines, j'ai développé un Puissance 4 entièrement personnalisable en JavaScript pur. Le jeu permet de modifier la taille de la grille, le nombre de joueurs et leurs couleurs, tout en gardant les règles classiques. L'interface est dynamique (événements clics, vérification des victoires), et le code est structuré pour une bonne maintenabilité. Un bon défi pour approfondir JS, le DOM et la logique de jeu.", "https://github.com/Pavelito75/Puissance-4"],
+        ["Puissance 4", {picturePuissance4}, "En deux semaines, j'ai développé un Puissance 4 entièrement personnalisable en JavaScript pur. Le jeu permet de modifier la taille de la grille, le nombre de joueurs et leurs couleurs, tout en gardant les règles classiques. L'interface est dynamique (événements clics, vérification des victoires), et le code est structuré pour une bonne maintenabilité. Un bon défi pour approfondir JS, le DOM et la logique de jeu.", "https://github.com/Pavelito75/Puissance-4"],
     ];
     
      return (
