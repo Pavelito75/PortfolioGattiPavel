@@ -20,7 +20,7 @@ import emailjs from '@emailjs/browser';
 import picturePavel from "/src/assets/GP.png";
 import pictureToDo from "/public/assets/toDoPics.png";
 import pictureTweet from "/public/assets/tweetPics.png"
-import picturePuissance4 from "./public/assets/puissance4pics.png";
+import picturePuissance4 from "/public/assets/puissance4pics.png";
 
 
 
