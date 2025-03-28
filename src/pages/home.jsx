@@ -17,6 +17,7 @@ import { FaTrello } from "react-icons/fa";
 import { FaFigma } from "react-icons/fa";
 import '../index.css';
 import emailjs from '@emailjs/browser';
+import picturePavel from "../public/assets/GP.png";
 
 
 
@@ -39,7 +40,7 @@ export default function Home() {
         <main className="m-10 p-4">
             <div id="gp" className="justify-center items-center md:flex md:justify-evenly md:pb-4">
                 <div className="w-full p-2 border-2 border-dashed border-blue-400 items-center justify-center dark:border-yellow-50">
-                    <img className="md:w-128 md:h-full" src="../public/assets/GP.png" alt="C'EST MOI" />
+                    <img className="md:w-128 md:h-full" src={picturePavel} alt="C'EST MOI" />
                 </div>
                 <div className="md:block md:pl-6">
                     <div className="md:text-xs">
